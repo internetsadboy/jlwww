@@ -1,0 +1,111 @@
+/* MAIN STYLING */
+
+body {
+  font-family: courier;
+}
+
+.subnav {
+  margin: auto;
+  margin-top: 75px;
+  letter-spacing: 2px;
+}
+
+.primaryContainer {
+  margin-left: 40px;
+  margin-top: 75px;
+  letter-spacing: 2px;
+}
+
+.primaryContainer a:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.primaryContainer h2 {
+  font-size: 20px;
+}
+
+.primaryContainer a {
+  color: black
+}
+
+.header {
+  color: #000;
+}
+
+.brands-ul {
+  list-style: georgian;
+}
+
+.subnav a {
+  color: black
+}
+
+.subnav a:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.emphasized {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.about {
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer li, .header li{
+  float: left;
+}
+
+li {
+  list-style: none;
+  border: 0px solid;
+  margin-right: 14px;
+  margin-bottom: 7px;
+}
+
+.footer li a {
+    font-family: helvetica;
+    color: red;
+}
+
+/* LUNIKA STYLES */
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.content-wrapper {
+  margin:auto;
+  text-align: center;
+}
+
+.bg-blk {
+  background-color: black;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+.subnav video, img {
+  width: 100%;
+}
